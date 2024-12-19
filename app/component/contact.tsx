@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
           Contact Me
         </h2>
         <p className="text-lg mb-12 max-w-xl mx-auto" data-aos="fade-right">
-          Feel free to reach out to me if you'd like to collaborate, have any questions, or just want to connect.
+          Feel free to reach out to me if you&#39;d like to collaborate, have any questions, or just want to connect.
         </p>
         <form className="max-w-lg mx-auto space-y-6">
           <input
