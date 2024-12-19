@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { useEffect } from 'react';
 const About: React.FC = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const About: React.FC = () => {
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            <img
+            <Image
                src="/WhatsApp Image 2024-06-17 at 14.15.16_d86dca07.jpg" // Replace with your image URL
               alt="Profile Picture"
               className="object-cover w-full h-full rounded-full"
